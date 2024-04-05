@@ -1,0 +1,246 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  height: 56px;
+  align-items: center;
+}
+button{
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  border: none;
+  padding-top: 4px;
+}
+button img{
+  border-radius: 40px;
+}
+.left_icon{
+  margin-left: 20px;
+  display: flex;
+  gap: 20px;
+}
+.left_icon img:nth-child(1){
+  height: 25px;
+}
+.left_icon img:nth-child(2){
+  padding-top:2px;
+  height: 22px;
+}
+.mid_icon{
+  display: flex;
+  height: 40px;
+  width: 732px;
+  gap: 15px;
+}
+.mid_icon input{
+  width: 500px;
+  border-radius: 20px;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 40px; /* Adjusted padding for the search icon on the right */
+  font-size: 16px;
+  outline: none;
+  border: 1px solid rgb(141, 141, 141);
+  background-image: url('searchIcon.svg'); /* Replace with the path to your search icon */
+  background-size: 20px; /* Adjust the size of the icon */
+  background-position: right 10px center; /* Position the icon to the right */
+  background-repeat: no-repeat;
+}
+
+.mid_icon button img{
+  height: 20px;
+}
+.right_icon{
+  display: flex;
+  gap: 10px;
+  height: 28px;
+  margin-right: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.right_icon img{
+  height: 25px;
+}
+.right_icon button{
+  background-color: white;
+}
+
+.last_icon{
+  width: 30x;
+  border-radius: 18px;
+}
+main{
+  display: flex;
+}
+.sidebar{
+  width: 240px;
+  height: 1740px;
+  /* background-color: bisque; */
+  font-family:'Roboto', sans-serif;
+}
+.menu{
+  padding: 10px;
+  display:flex;
+  flex-direction: column;
+}
+.home{
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  /* background-color: aqua; */
+  gap: 23px;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+}
+.home:first-child{
+    /* background-color: purple; */
+    padding: 4px 22px 4px 0px;
+    width: 185px;
+    height: 28px;
+}
+.home > div:nth-child(2){
+  /* background-color: white; */
+  width: 160px;
+  height: 20px;
+  padding: 4px 5px 4px 1px;
+}
+.allClass{
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  /* background-color: aqua; */
+  gap: 23px;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom:5px ;
+
+}
+.allClass:first-child{
+    /* background-color: purple; */
+    padding: 4px 22px 4px 0px;
+    width: 185px;
+    height: 28px;
+}
+.allClass > div:nth-child(2){
+  /* background-color: white; */
+  width: 160px;
+  height: 20px;
+  padding: 4px 5px 4px 1px;
+}
+.sidebar-divider {
+  border-top: 1px solid #ccc; /* Set the color and style of the divider line */ 
+}
+.youClass{
+  display: flex;
+  gap: 10px;
+  margin-left: 22px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  align-items: center;
+}
+.youClass >div:nth-child(2){
+  padding-top: 5px;
+}
+.sub{
+  margin-bottom: 10px;
+}
+.subx{
+  margin-bottom: 10px;
+}
+.subClass{
+  display: flex;
+  margin-left: 22px;
+  gap: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.subClass >div:nth-child(1) img{
+  width: 26px;
+  height: 26px;
+  border-radius: 15px;
+}
+.subClass > div:nth-child(2){
+  padding-left: 15px;
+  width: 110px;
+}
+
+.content {
+  /* background-color: aqua; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(4,360px);
+  gap: 1px; 
+  box-sizing: border-box;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.card {
+  /* background-color: blueviolet; */
+  height: 360px;
+  margin-top: 5px;
+}
+.image{
+  position: relative;
+}
+.card img{
+  padding: 10px;
+  width: 400px;
+  border-radius: 25px;
+}
+.icon{
+  /* background-color: blue; */
+  width: 36px;
+  height: 36px;
+  border-radius: 30px;
+}
+.icon img{
+  width: 32px;
+  height: 32px;
+  border-radius: 30px;
+  padding: 2px 2px 2px 2px;
+}
+
+.text{
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.title{
+  /* background-color: burlywood; */
+  margin-left: 10px;
+  width: 320px;
+  height: 100px;
+}
+.title > p:nth-child(2){
+  margin-top:5px;   
+}
+.title > p:nth-child(3){
+  margin-top:5px ;
+  font-size: 14px;
+}
+ .timestamp{
+  background-color: black;
+  position: absolute;
+  color: white;
+  padding: 2px 4px;
+  right: 15px;
+  bottom: 20px;
+  border-radius: 5px;
+}
